@@ -74,7 +74,3 @@ kaggle datasets download -d sgpjesus/bank-account-fraud-dataset-neurips-2022 -p 
 ```
 
 Unzip `Base.csv` into `data/raw/bank_account_fraud/`, then run `src/pu_learning_fraud.ipynb` from top to bottom.
-
-## Background
-
-At KPMG Japan, I used PU learning for financial statement fraud, where the label (a regulator's penalty) is very strict and many frauds are never labeled. On that real data, the gain from PU was much bigger than in this simulation.
